@@ -1,0 +1,5 @@
+- name: Test RDP
+  hosts: wm-4  
+  tasks:
+  - name: Ping
+    ansible.windows.win_ping:
